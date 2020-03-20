@@ -23,6 +23,7 @@ import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 import Grid from "@material-ui/core/Grid";
 import NewsTimeline from "./NewsTimeline";
+//import { downloadStateCaseData } from "./GoogleDriveAPI"
 
 let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 dayjs.extend(relativeTime);
@@ -747,7 +748,7 @@ function App() {
             <About />
           </Grid> */}
           {/*<Grid item xs={12}>*/}
-            {/*<ExposureSites />*/}
+          {/*<ExposureSites />*/}
           {/*</Grid>*/}
 
           <Grid item xs={12}>
